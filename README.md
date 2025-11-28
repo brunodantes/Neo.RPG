@@ -62,7 +62,7 @@ http://localhost:5200
 
 ## API Endpoints
 
-### ** Create Character**  
+### Create Character
 **POST** `/api/characters`
 
 #### Request Body
@@ -92,7 +92,7 @@ http://localhost:5200
 
 ---
 
-### ** Character Details**  
+### Character Details
 **GET** `/api/characters/{id}`
 
 #### Response
@@ -117,7 +117,7 @@ http://localhost:5200
 
 ---
 
-### ** Execute Battle**  
+### Execute Battle 
 **POST** `/api/battle`
 
 #### Request Body
