@@ -60,7 +60,7 @@ http://localhost:5200
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### ** Create Character**  
 **POST** `/api/characters`
