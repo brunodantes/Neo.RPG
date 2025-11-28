@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoRPG.API", "NeoRPG.API\NeoRPG.API.csproj", "{31F5822A-4B76-421E-B02D-AA71853E08B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoRPG.Application", "NeoRPG.Application\NeoRPG.Application.csproj", "{333DAA5C-4924-425B-B44F-31BB9D50DF0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoRPG.Domain", "NeoRPG.Domain\NeoRPG.Domain.csproj", "{704AD691-FEB7-4539-A7B8-3CAC7D324561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoRPG.Contract", "NeoRPG.Contract\NeoRPG.Contract.csproj", "{B4FAB899-1CCF-4650-911D-411FA0708CAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoRPG.Entities", "NeoRPG.Entities\NeoRPG.Entities.csproj", "{808B7F1A-266B-4E95-9005-02C4AC092598}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoRPG.Data", "NeoRPG.Data\NeoRPG.Data.csproj", "{A80A9A99-ED59-4D41-AF0F-47CD06D195F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoRPG.Application.Tests", "NeoRPG.Application.Tests\NeoRPG.Application.Tests.csproj", "{1CA0060A-6D03-432E-830A-ABCB1F784612}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31F5822A-4B76-421E-B02D-AA71853E08B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F5822A-4B76-421E-B02D-AA71853E08B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F5822A-4B76-421E-B02D-AA71853E08B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F5822A-4B76-421E-B02D-AA71853E08B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{333DAA5C-4924-425B-B44F-31BB9D50DF0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{333DAA5C-4924-425B-B44F-31BB9D50DF0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{333DAA5C-4924-425B-B44F-31BB9D50DF0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{333DAA5C-4924-425B-B44F-31BB9D50DF0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{704AD691-FEB7-4539-A7B8-3CAC7D324561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{704AD691-FEB7-4539-A7B8-3CAC7D324561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{704AD691-FEB7-4539-A7B8-3CAC7D324561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{704AD691-FEB7-4539-A7B8-3CAC7D324561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4FAB899-1CCF-4650-911D-411FA0708CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4FAB899-1CCF-4650-911D-411FA0708CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4FAB899-1CCF-4650-911D-411FA0708CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4FAB899-1CCF-4650-911D-411FA0708CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{808B7F1A-266B-4E95-9005-02C4AC092598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{808B7F1A-266B-4E95-9005-02C4AC092598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{808B7F1A-266B-4E95-9005-02C4AC092598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{808B7F1A-266B-4E95-9005-02C4AC092598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A80A9A99-ED59-4D41-AF0F-47CD06D195F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A80A9A99-ED59-4D41-AF0F-47CD06D195F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A80A9A99-ED59-4D41-AF0F-47CD06D195F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A80A9A99-ED59-4D41-AF0F-47CD06D195F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CA0060A-6D03-432E-830A-ABCB1F784612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CA0060A-6D03-432E-830A-ABCB1F784612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CA0060A-6D03-432E-830A-ABCB1F784612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CA0060A-6D03-432E-830A-ABCB1F784612}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12D99DA2-EA20-4A76-A83F-BBF9D54640D6}
+	EndGlobalSection
+EndGlobal

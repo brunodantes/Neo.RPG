@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\NeoRPG.Application\NeoRPG.Application.csproj" />
+		<ProjectReference Include="..\NeoRPG.Contract\NeoRPG.Contract.csproj" />
+		<ProjectReference Include="..\NeoRPG.Data\NeoRPG.Data.csproj" />
+		<ProjectReference Include="..\NeoRPG.Domain\NeoRPG.Domain.csproj" />
+	</ItemGroup>
+
+</Project>
